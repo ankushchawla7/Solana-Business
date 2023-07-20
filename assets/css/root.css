@@ -1,0 +1,61 @@
+:root {
+    /* color */
+    --dark-yellow: #F6E300;
+    --black: black;
+    --light-yellow: #FFF03F;
+    --opac-black: #33300D;
+    --red: #F4241E;
+    --white: white;
+
+    /* font */
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+}
+
+.bg_prime_yellow {
+    background-color: var(--dark-yellow);
+}
+
+.font_sm {
+    font-size: var(--fs-18) !important;
+}
+
+.text_black {
+    color: var(--black) !important;
+}
+
+.font_md {
+    font-size: var(--fs-20);
+}
+
+.font_lg {
+    font-size: var(--fs-24);
+}
+
+.font_xl {
+    font-size: var(--fs-36);
+}
+
+.font_2xl {
+    font-size: var(--fs-48);
+}
+
+.bg_sec_yellow {
+    background-color: var(--light-yellow);
+}
+
+
+.p_para-clr {
+    color: var(--opac-black);
+}
+
+.bg_red {
+    background-color: var(--red);
+}
+
+.text_white {
+    color: var(--white);
+}
